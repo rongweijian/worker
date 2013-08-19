@@ -1,0 +1,5 @@
+common存放公用的info.jsp error.jsp
+htmls存放静态页面
+resources存放静态资源
+
+其他为各模块页面路径

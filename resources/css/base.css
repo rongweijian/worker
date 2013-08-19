@@ -1,0 +1,36 @@
+body {
+	padding-top: 107px;
+	padding-bottom: 40px;
+	background:url(../images/index_bg.png)repeat scroll 0 0 transparent
+  }
+  .hero-unit{
+	text-align:center;  
+  }
+  .span4{
+	text-align:center;  
+  }
+  .navbar-inverse .navbar-inner {
+	background-image:none;
+	background: url(../images/header_bg.png) repeat scroll left top transparent;
+  }
+.bs-docs-social{
+    padding: 15px 0;
+    text-align: center;
+}
+
+.bs-docs-social-buttons {
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.bs-docs-social-buttons li {
+    display: inline-block;
+    line-height: 1;
+    padding: 5px 8px;
+}
+
+.bs-docs-social-buttons {
+    list-style: none outside none;
+}

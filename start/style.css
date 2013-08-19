@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'WatchmakerCaps-Bold';
+    src: url('font/267A32_0_0.eot');
+    src: url('font/267A32_0_0.eot?#iefix') format('embedded-opentype'),
+    url('font/267A32_0_0.woff') format('woff'),
+    url('font/267A32_0_0.ttf') format('truetype'),
+    url('font/267A32_0_0.svg#wf') format('svg');
+}
+
+/*  =RESET
+----------------------------------------------------------------------------- */
+body, p, form, ul, ol, li, dl, dt, dd, fieldset, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body, html {
+    height: 100%;
+    min-height: 400px;
+    min-width: 768px;
+    max-width: 100%;
+}
+input {
+    font-family: inherit
+}
+select, option, input[type="text"], input[type="password"], input[type="text"], textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+:focus {
+    outline-color: hsla(0, 100%, 50%, 0.5);
+}
+/* placeholder*/
+::-webkit-input-placeholder {
+    color:#000;
+    opacity: 1;
+    text-overflow: ellipsis;
+}
+::-moz-placeholder {
+    color:#000;
+    opacity: 1;
+    text-overflow: ellipsis;
+}
+:-ms-input-placeholder {
+    color:#000;
+    opacity: 1;
+    text-overflow: ellipsis;
+}
+input:-moz-placeholder {
+    color:#000;
+    opacity: 1;
+    text-overflow: ellipsis;
+}
+.placeholder {
+    color:#000;
+    opacity: 1;
+    text-overflow: ellipsis;
+}
+
+/*  =MAIN STYLE
+----------------------------------------------------------------------------- */
+
+/* FONT */
+.font-watchmakerwcaps-bold {
+    font-family:'WatchmakerCaps-Bold', arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    color: #000;
+    padding-bottom: 1px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+a:hover, a:focus{
+}
+#site {
+    min-width: 736px;
+    height: 100%;
+    min-height: 400px;
+
+}
+#container{
+    display: table;
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+}
+#centered-wrapper{
+    margin: 0 auto;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#countdown{
+    font-size: 28px;
+    letter-spacing: 0.07em;
+    margin-left: -13px;
+}
+#logo{
+    margin-top: 10px;
+}
+/* FORM */
+#form-register{
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 20px;
+    width: 361px;
+    margin: 0 auto;
+    text-align: center;
+}
+#form-register .text{
+    margin: 12px 0;
+}
+#form-register .confirmation{
+    margin-bottom: 40px;
+}
+#form-register .inputs{
+    width: 361px;
+    height: 25px;
+    position: relative;
+}
+#form-register-email{
+    position: absolute;
+    top:0;
+    left:0;
+    background: none;
+    border: none;
+    width: 315px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #000000;
+    text-transform: uppercase;
+    outline: none;
+    font-size: 12px;
+}
+#form-register-email::-webkit-input-placeholder {
+    color:#000;
+}
+#form-register-email::-moz-placeholder {
+    color:#000;
+    opacity: 1;
+}
+#form-register-email.error{
+    border-bottom: 2px solid #670000;
+    color: #670000;
+}
+#form-register-submit{
+    position: absolute;
+    top:-1px;
+    right:0;
+    background: white;
+    border: 1px solid black;
+    width: 36px;
+    height: 25px;
+    padding: 3px 6px;
+    margin: 0;
+    cursor: pointer;
+}
+.form-error{
+    position: absolute;
+    left: 0;
+    bottom: -19px;
+    color: #670000;
+    display: none;
+    width: 400px;
+    text-align: left;
+}
+.form-error.error{
+    display: block;
+}
+#links{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    list-style-type: none;
+    text-align: right;
+}
+#links li{
+    background:  url(../img/arrow-right.png) right center no-repeat;
+    padding: 0 15px 0 0;
+}
